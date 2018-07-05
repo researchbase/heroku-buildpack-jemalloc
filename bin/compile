@@ -35,7 +35,7 @@ function vendor() {
 }
 
 echo "-----> Vendoring binaries"
-vendor "https://bitbucket.org/researchpath/heroku-buildpack-jemalloc/downloads/jemalloc-4.2.1-1.tar.gz" "$BUILD_DIR/vendor/jemalloc"
+vendor "https://storage.googleapis.com/rp-heroku-buildpack-jemalloc/jemalloc-4.2.1-1.tar.gz" "$BUILD_DIR/vendor/jemalloc"
 
 echo "-----> Configuring build environment"
 
