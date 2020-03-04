@@ -15,7 +15,7 @@ if [ -f $ENV_DIR/JEMALLOC_VERSION ]; then
   version=$(cat $ENV_DIR/JEMALLOC_VERSION)
 fi
 
-url="https://bitbucket.org/researchpath/heroku-buildpack-jemalloc/downloads/jemalloc-$version.tar.bz2"
+url="https://storage.googleapis.com/rp-heroku-buildpack-jemalloc/jemalloc-$version.tar.bz2"
 
 dest="$BUILD_DIR/vendor/jemalloc"
 
